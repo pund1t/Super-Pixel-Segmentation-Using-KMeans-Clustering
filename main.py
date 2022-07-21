@@ -12,7 +12,7 @@ import cv2
 plt.rcParams.update({'font.size': 22})
 
 
-image = cv2.imread("/Users/abhinavthakur/Desktop/pytut/Kmeans Clustering/images/image.jpg")
+image = cv2.imread("images/input/image.jpg")
 image = cv2.cvtColor(image , cv2.COLOR_BGR2RGB)
 plt.figure(figsize = (8,6))
 plt.imshow(image)
